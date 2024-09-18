@@ -53,7 +53,7 @@ def soldering_tool():
 
 
     # inputs
-    awg = int(input("Enter the wire gauge (AWG) (10-30): "))
+    awg = int(input("Enter the wire gauge (AWG): "))
     if awg not in awg_to_diameter:
         print("Error: Invalid AWG. Please enter an AWG between 10 and 30.")
         return
